@@ -316,7 +316,7 @@
     <value>เปิดโฟล์เดอร์</value>
   </data>
   <data name="BtnHidePane.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>ซ่อนรายการฟอนต์</value>
+    <value>ซ่อนรายการฟอนต์ (CTRL+L)</value>
   </data>
   <data name="NotificationImportFailed" xml:space="preserve">
     <value>นำเข้าฟอนต์ล้มเหลว</value>
@@ -328,7 +328,7 @@
     <value>เพิ่มฟอนต์ {0} เข้ารายการสะสมเรียบร้อย</value>
   </data>
   <data name="BtnShowPane.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>แสดงรายการฟอนต์</value>
+    <value>แสดงรายการฟอนต์ (CTRL+L)</value>
   </data>
   <data name="BtnMoreIcon.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>อื่นๆ </value>
@@ -600,7 +600,7 @@
   </data>
   <data name="SettingsCharLabelDesc.Text" xml:space="preserve">
     <value>เลือกการแสดงผลข้อมูลใต้อักษร
-อาจมีผลเสียขณะเลือนดูารางอักษรเล็กน้อย</value>
+อาจมีผลเสียขณะเลื่อนดูตารางอักษรเล็กน้อย</value>
   </data>
   <data name="BtnPrint.Content" xml:space="preserve">
     <value>พิมพ์</value>
@@ -692,7 +692,7 @@
     <value>บันทึกเป็น Zip</value>
   </data>
   <data name="SystemFontsExpiredMessage.Text" xml:space="preserve">
-    <value>มีฟอนต์ถูกเพิ่มหรือลบออก กรุณาโหลดรายการใหม่</value>
+    <value>มีฟอนต์ถูกเพิ่มหรือลบออก. คลิกเพื่อโหลดรายการใหม่</value>
   </data>
   <data name="TxtPathIcon.Text" xml:space="preserve">
     <value>Path Icon</value>
@@ -740,10 +740,10 @@
     <value>เป็นมนุษย์สุดประเสริฐเลิศคุณค่ากว่าบรรดาฝูงสัตว์เดรัจฉาน ๑๒๓๔๕๖๗๘๙๐</value>
   </data>
   <data name="LblSwitchToCharMap.Text" xml:space="preserve">
-    <value>สลับเป็นมุมมองผังอักษร</value>
+    <value>สลับเป็นมุมมองผังอักษร (CTRL+T)</value>
   </data>
   <data name="LblSwitchToTypeRamp.Text" xml:space="preserve">
-    <value>สลับเป็นมุมมองแสดงตัวอย่างอักษร</value>
+    <value>สลับเป็นมุมมองแสดงตัวอย่างอักษร (CTRL+T)</value>
   </data>
   <data name="TypeRampInputBox.PlaceholderText" xml:space="preserve">
     <value>พิมพ์หรือเลือกข้อความจากรายการ</value>
@@ -807,5 +807,75 @@
   </data>
   <data name="BtnReset.Content" xml:space="preserve">
     <value>รีเซท</value>
+  </data>
+  <data name="SettingsEnablePaneDescription.Text" xml:space="preserve">
+    <value>แสดงหรือซ่อนแถบแสดงตัวอย่างอักษรที่อยู่ทางด้านขวา. หากปิดไปแล้วฟังก์ชั่นที่ถูกซ่อนไปยังสามารถใช้งานได้โดยใช้เมนูคลิกขวาหรือแตะค้างที่ตัวอักษรในผังอักษรในตาราง</value>
+  </data>
+  <data name="SettingsEnablePaneHeader.Text" xml:space="preserve">
+    <value>แสดงแถบตัวอย่างอักษร</value>
+  </data>
+  <data name="CopyFontIconCode.Text" xml:space="preserve">
+    <value>คัดลอกโค้ดอักขระแบบ FontIcon</value>
+  </data>
+  <data name="CopyGlyphCode.Text" xml:space="preserve">
+    <value>คัดลอกโค้ดอักขระ</value>
+  </data>
+  <data name="CopyPathIconCode.Text" xml:space="preserve">
+    <value>คัดลอกโค้ดอักขระแบบ PathIcon</value>
+  </data>
+  <data name="CopyUnicodeValue.Text" xml:space="preserve">
+    <value>คัดลอกโค้ดอักขระแบบ Unicode</value>
+  </data>
+  <data name="DecreaseSizeButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ลดขนาดอักษรในตาราง (Ctrl+-)</value>
+  </data>
+  <data name="IncreaseSizeButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ขนาดอักษรในตาราง (Ctrl++)</value>
+  </data>
+  <data name="SwitchViewButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>สลับมุมมอง (Ctrl+T)</value>
+  </data>
+  <data name="TogglePaneButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ซ่อน/แสดง แถบตัวอย่างอักษร(Ctrl+R)</value>
+  </data>
+  <data name="NotificationCopied" xml:space="preserve">
+    <value>คัดลอกแล้ว</value>
+  </data>
+  <data name="ToggleCopyPaneButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ซ่อน/แสดง แถบสะสมอักษร (Ctrl+B)</value>
+  </data>
+  <data name="AddButton.Label" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="CopySequencePlaceholder.Text" xml:space="preserve">
+    <value>เพิ่มอักขระโดยกดปุ่ม "เพิ่ม"</value>
+  </data>
+  <data name="AddSelectionItem.Text" xml:space="preserve">
+    <value>เพิ่มเข้าแถบสะสม</value>
+  </data>
+  <data name="CompactOverlayButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>อยู่บนสุด</value>
+  </data>
+  <data name="TypographyVariationsSelectorRun.Text" xml:space="preserve">
+    <value>รูปแบบอักษรที่คล้ายกัน</value>
+  </data>
+  <data name="ToggleDevDefaultLabel" xml:space="preserve">
+    <value>เครื่องมือ</value>
+  </data>
+  <data name="BtnFit.Label" xml:space="preserve">
+    <value>ขยาย</value>
+  </data>
+  <data name="TxtCopiedVariantMessage.Text" xml:space="preserve">
+    <value>รูปแบบอักษรนี้ไม่สามารถคัดลอกได้
+คัดลอกรูปแบบต้นฉบับแทน.</value>
+  </data>
+  <data name="CollectionFontHelpBlock.Text" xml:space="preserve">
+    <value>ไม่มีฟอนต์อยู่ในรายการสะสมนี้</value>
+  </data>
+  <data name="SearchFontHelpBlock.Text" xml:space="preserve">
+    <value>ไม่พบผลการค้นหาที่ระบุ.</value>
+  </data>
+  <data name="FontListSearchBox.PlaceholderText" xml:space="preserve">
+    <value>ค้นหา</value>
   </data>
 </root>

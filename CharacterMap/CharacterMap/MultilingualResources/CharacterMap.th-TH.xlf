@@ -412,8 +412,7 @@
         </trans-unit>
         <trans-unit id="BtnHidePane.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
           <source>Hide font pane (Ctrl+L)</source>
-          <target state="needs-review-translation">ซ่อนรายการฟอนต์</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">ซ่อนรายการฟอนต์ (CTRL+L)</target>
         </trans-unit>
         <trans-unit id="NotificationImportFailed" translate="yes" xml:space="preserve">
           <source>Import Failed</source>
@@ -429,8 +428,7 @@
         </trans-unit>
         <trans-unit id="BtnShowPane.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
           <source>Show font pane (Ctrl+L)</source>
-          <target state="needs-review-translation">แสดงรายการฟอนต์</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">แสดงรายการฟอนต์ (CTRL+L)</target>
         </trans-unit>
         <trans-unit id="BtnMoreIcon.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
           <source>More</source>
@@ -796,7 +794,7 @@ You can change the page range in the Page Setup section.</source>
         <trans-unit id="SettingsCharLabelDesc.Text" translate="yes" xml:space="preserve">
           <source>Choose the label to show under each character. May have a minor effect on scrolling performance.</source>
           <target state="translated">เลือกการแสดงผลข้อมูลใต้อักษร
-อาจมีผลเสียขณะเลือนดูารางอักษรเล็กน้อย</target>
+อาจมีผลเสียขณะเลื่อนดูตารางอักษรเล็กน้อย</target>
         </trans-unit>
         <trans-unit id="BtnPrint.Content" translate="yes" xml:space="preserve">
           <source>Print</source>
@@ -920,8 +918,7 @@ Please consider posting details about this error to GitHub so we can help you fi
         </trans-unit>
         <trans-unit id="SystemFontsExpiredMessage.Text" translate="yes" xml:space="preserve">
           <source>Font listings are out of date. Click to relaunch the app.</source>
-          <target state="needs-review-translation">มีฟอนต์ถูกเพิ่มหรือลบออก กรุณาโหลดรายการใหม่</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">มีฟอนต์ถูกเพิ่มหรือลบออก. คลิกเพื่อโหลดรายการใหม่</target>
         </trans-unit>
         <trans-unit id="TxtPathIcon.Text" translate="yes" xml:space="preserve">
           <source>Path Icon</source>
@@ -985,13 +982,11 @@ Please consider posting details about this error to GitHub so we can help you fi
         </trans-unit>
         <trans-unit id="LblSwitchToCharMap.Text" translate="yes" xml:space="preserve">
           <source>Switch to Character Map view (Ctrl+T)</source>
-          <target state="needs-review-translation">สลับเป็นมุมมองผังอักษร</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">สลับเป็นมุมมองผังอักษร (CTRL+T)</target>
         </trans-unit>
         <trans-unit id="LblSwitchToTypeRamp.Text" translate="yes" xml:space="preserve">
           <source>Switch to Type Ramp view (Ctrl+T)</source>
-          <target state="needs-review-translation">สลับเป็นมุมมองแสดงตัวอย่างอักษร</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">สลับเป็นมุมมองแสดงตัวอย่างอักษร (CTRL+T)</target>
         </trans-unit>
         <trans-unit id="TypeRampInputBox.PlaceholderText" translate="yes" xml:space="preserve">
           <source>Enter or choose text from the dropdown</source>
@@ -1082,23 +1077,23 @@ Optimized will create a smart name based on Font Family and Font Name.</source>
         </trans-unit>
         <trans-unit id="SettingsEnablePaneDescription.Text" translate="yes" xml:space="preserve">
           <source>Shows or hides the preview pane on the right of the screen. If turned off, many functions can still be accessed by right clicking or touch holding on a character inside the character grid.</source>
-          <target state="new">Shows or hides the preview pane on the right of the screen. If turned off, many functions can still be accessed by right clicking or touch holding on a character inside the character grid.</target>
+          <target state="translated">แสดงหรือซ่อนแถบแสดงตัวอย่างอักษรที่อยู่ทางด้านขวา. หากปิดไปแล้วฟังก์ชั่นที่ถูกซ่อนไปยังสามารถใช้งานได้โดยใช้เมนูคลิกขวาหรือแตะค้างที่ตัวอักษรในผังอักษรในตาราง</target>
         </trans-unit>
         <trans-unit id="SettingsEnablePaneHeader.Text" translate="yes" xml:space="preserve">
           <source>Preview Pane Display</source>
-          <target state="new">Preview Pane Display</target>
+          <target state="translated">แสดงแถบตัวอย่างอักษร</target>
         </trans-unit>
         <trans-unit id="CopyFontIconCode.Text" translate="yes" xml:space="preserve">
           <source>Copy FontIcon Code</source>
-          <target state="new">Copy FontIcon Code</target>
+          <target state="translated">คัดลอกโค้ดอักขระแบบ FontIcon</target>
         </trans-unit>
         <trans-unit id="CopyGlyphCode.Text" translate="yes" xml:space="preserve">
           <source>Copy Glyph Code</source>
-          <target state="new">Copy Glyph Code</target>
+          <target state="translated">คัดลอกโค้ดอักขระ</target>
         </trans-unit>
         <trans-unit id="CopyPathIconCode.Text" translate="yes" xml:space="preserve">
           <source>Copy PathIcon Code</source>
-          <target state="new">Copy PathIcon Code</target>
+          <target state="translated">คัดลอกโค้ดอักขระแบบ PathIcon</target>
         </trans-unit>
         <trans-unit id="SearchBoxShorter" translate="yes" xml:space="preserve">
           <source>Search...</source>
@@ -1106,77 +1101,77 @@ Optimized will create a smart name based on Font Family and Font Name.</source>
         </trans-unit>
         <trans-unit id="CopyUnicodeValue.Text" translate="yes" xml:space="preserve">
           <source>Copy Unicode Value</source>
-          <target state="new">Copy Unicode Value</target>
+          <target state="translated">คัดลอกโค้ดอักขระแบบ Unicode</target>
         </trans-unit>
         <trans-unit id="DecreaseSizeButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
           <source>Decrease Character Size (Ctrl+-)</source>
-          <target state="new">Decrease Character Size (Ctrl+-)</target>
+          <target state="translated">ลดขนาดอักษรในตาราง (Ctrl+-)</target>
         </trans-unit>
         <trans-unit id="IncreaseSizeButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
           <source>Increase Character Size (Ctrl++)</source>
-          <target state="new">Increase Character Size (Ctrl++)</target>
+          <target state="translated">ขนาดอักษรในตาราง (Ctrl++)</target>
         </trans-unit>
         <trans-unit id="SwitchViewButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
           <source>Switch View (Ctrl+T)</source>
-          <target state="new">Switch View (Ctrl+T)</target>
+          <target state="translated">สลับมุมมอง (Ctrl+T)</target>
         </trans-unit>
         <trans-unit id="TogglePaneButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
           <source>Toggle Preview Pane (Ctrl+R)</source>
-          <target state="new">Toggle Preview Pane (Ctrl+R)</target>
+          <target state="translated">ซ่อน/แสดง แถบตัวอย่างอักษร(Ctrl+R)</target>
         </trans-unit>
         <trans-unit id="NotificationCopied" translate="yes" xml:space="preserve">
           <source>Copied</source>
-          <target state="new">Copied</target>
+          <target state="translated">คัดลอกแล้ว</target>
         </trans-unit>
         <trans-unit id="ToggleCopyPaneButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
           <source>Toggle Copy Pane (Ctrl+B)</source>
-          <target state="new">Toggle Copy Pane (Ctrl+B)</target>
+          <target state="translated">ซ่อน/แสดง แถบสะสมอักษร (Ctrl+B)</target>
         </trans-unit>
         <trans-unit id="AddButton.Label" translate="yes" xml:space="preserve">
           <source>Add</source>
-          <target state="new">Add</target>
+          <target state="translated">เพิ่ม</target>
         </trans-unit>
         <trans-unit id="CopySequencePlaceholder.Text" translate="yes" xml:space="preserve">
           <source>add a character using the Add button</source>
-          <target state="new">add a character using the Add button</target>
+          <target state="translated">เพิ่มอักขระโดยกดปุ่ม "เพิ่ม"</target>
         </trans-unit>
         <trans-unit id="AddSelectionItem.Text" translate="yes" xml:space="preserve">
           <source>Add to selection</source>
-          <target state="new">Add to selection</target>
+          <target state="translated">เพิ่มเข้าแถบสะสม</target>
         </trans-unit>
         <trans-unit id="CompactOverlayButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
           <source>Keep on top</source>
-          <target state="new">Keep on top</target>
+          <target state="translated">อยู่บนสุด</target>
         </trans-unit>
         <trans-unit id="TypographyVariationsSelectorRun.Text" translate="yes" xml:space="preserve">
           <source>Typography Variations</source>
-          <target state="new">Typography Variations</target>
+          <target state="translated">รูปแบบอักษรที่คล้ายกัน</target>
         </trans-unit>
         <trans-unit id="ToggleDevDefaultLabel" translate="yes" xml:space="preserve">
           <source>Tools</source>
-          <target state="new">Tools</target>
+          <target state="translated">เครื่องมือ</target>
         </trans-unit>
         <trans-unit id="BtnFit.Label" translate="yes" xml:space="preserve">
           <source>Fit</source>
-          <target state="new">Fit</target>
+          <target state="translated">ขยาย</target>
         </trans-unit>
         <trans-unit id="TxtCopiedVariantMessage.Text" translate="yes" xml:space="preserve">
           <source>Glyph variations cannot be copied.
 Default variant copied.</source>
-          <target state="new">Glyph variations cannot be copied.
-Default variant copied.</target>
+          <target state="translated">รูปแบบอักษรนี้ไม่สามารถคัดลอกได้
+คัดลอกรูปแบบต้นฉบับแทน.</target>
         </trans-unit>
         <trans-unit id="CollectionFontHelpBlock.Text" translate="yes" xml:space="preserve">
           <source>There are no fonts in this collection yet.</source>
-          <target state="new">There are no fonts in this collection yet.</target>
+          <target state="translated">ไม่มีฟอนต์อยู่ในรายการสะสมนี้</target>
         </trans-unit>
         <trans-unit id="SearchFontHelpBlock.Text" translate="yes" xml:space="preserve">
           <source>No results found for this search. Try something else.</source>
-          <target state="new">No results found for this search. Try something else.</target>
+          <target state="translated">ไม่พบผลการค้นหาที่ระบุ.</target>
         </trans-unit>
         <trans-unit id="FontListSearchBox.PlaceholderText" translate="yes" xml:space="preserve">
           <source>Search</source>
-          <target state="new">Search</target>
+          <target state="translated">ค้นหา</target>
         </trans-unit>
       </group>
     </body>
